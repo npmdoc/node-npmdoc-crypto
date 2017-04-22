@@ -1,0 +1,260 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/Gozala/crypto#readme">crypto (v0.0.3)</a>
+</h1>
+<h4>JavaScript implementations of standard and secure cryptographic algorithms.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.crypto">module crypto</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">crypto.</span>md5</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">crypto.</span>sha1</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.crypto.md5">module crypto.md5</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.md5.hex_md5">
+            function <span class="apidocSignatureSpan">crypto.md5.</span>hex_md5
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.crypto.sha1">module crypto.sha1</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.b64_hmac_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>b64_hmac_sha1
+            <span class="apidocSignatureSpan">(key, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.b64_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>b64_sha1
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.hex_hmac_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>hex_hmac_sha1
+            <span class="apidocSignatureSpan">(key, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.hex_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>hex_sha1
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.str_hmac_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>str_hmac_sha1
+            <span class="apidocSignatureSpan">(key, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.crypto.sha1.str_sha1">
+            function <span class="apidocSignatureSpan">crypto.sha1.</span>str_sha1
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.crypto" id="apidoc.module.crypto">module crypto</a></h1>
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.crypto.md5" id="apidoc.module.crypto.md5">module crypto.md5</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.md5.hex_md5" id="apidoc.element.crypto.md5.hex_md5">
+        function <span class="apidocSignatureSpan">crypto.md5.</span>hex_md5
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hex_md5(s)    { return rstr2hex(rstr_md5(str2rstr_utf8(s))); }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.crypto.sha1" id="apidoc.module.crypto.sha1">module crypto.sha1</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.b64_hmac_sha1" id="apidoc.element.crypto.sha1.b64_hmac_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>b64_hmac_sha1
+        <span class="apidocSignatureSpan">(key, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function b64_hmac_sha1(key, data){ return binb2b64(core_hmac_sha1(key, data));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.b64_sha1" id="apidoc.element.crypto.sha1.b64_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>b64_sha1
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function b64_sha1(s){return binb2b64(core_sha1(str2binb(s),s.length * chrsz));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.hex_hmac_sha1" id="apidoc.element.crypto.sha1.hex_hmac_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>hex_hmac_sha1
+        <span class="apidocSignatureSpan">(key, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hex_hmac_sha1(key, data){ return binb2hex(core_hmac_sha1(key, data));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.hex_sha1" id="apidoc.element.crypto.sha1.hex_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>hex_sha1
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hex_sha1(s){return binb2hex(core_sha1(str2binb(s),s.length * chrsz));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.str_hmac_sha1" id="apidoc.element.crypto.sha1.str_hmac_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>str_hmac_sha1
+        <span class="apidocSignatureSpan">(key, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function str_hmac_sha1(key, data){ return binb2str(core_hmac_sha1(key, data));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.crypto.sha1.str_sha1" id="apidoc.element.crypto.sha1.str_sha1">
+        function <span class="apidocSignatureSpan">crypto.sha1.</span>str_sha1
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function str_sha1(s){return binb2str(core_sha1(str2binb(s),s.length * chrsz));}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
